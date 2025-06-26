@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Arimo';
+}
+
+#banner{
+   height: 600px; 
+   background-image: url('imagens/iphone-12-banner-2\ 1.jpg');
+   background-size: cover;
+}
+
+#menu_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #ffffff;
+}
+.links{
+    color: #ffffff;
+    text-decoration: none;
+}
+.botao_cinza{
+    background-color: #D9D9D9;
+    color: #000000;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 800;
+}
+
+#banner h1{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 250px;
+}
+.botoes{
+    background-color: #000000;
+    color: #ffffff;
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+#secao1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: center;
+}
+
+#secao2{
+    /* border: 1px solid red; */
+    width: 75%;
+    min-height: 400px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; /* Quebra automática de linha*/
+    justify-content: space-evenly;
+
+}
+.anuncio{
+    max-width: 350px;
+    /* border: 1px solid green; */
+    text-align: center;
+    margin-bottom: 100px;
+    transition: all 0.5s;
+}
+.anuncio:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.fotos{
+    height: 400px;
+}
+.titulos{
+    font-size: 32px;
+}
+.precos{
+    font-size: 32px;
+    font-weight: 900;
+    color:#E30C0C;
+}
+.botao_vermelho{
+    background-color: #E30C0C;
+    width: 180px; /*largura do objeto*/
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 900;  /*espessura do texto*/
+    padding: 8px;   /*espaçamento interno*/
+    border-radius: 10px; 
+    margin: auto;   /*ajuda a centralizar objetos horizontalmente*/
+    margin-top: 20px;
+}
