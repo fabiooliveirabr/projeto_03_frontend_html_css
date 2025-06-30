@@ -1,168 +1,184 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap'); /* Importa a fonte 'Arimo' do Google Fonts */
 
 body{
-    margin: 0px;
-    font-family: 'Arimo';
+    margin: 0px; /* Remove as margens padrão do navegador */
+    font-family: 'Arimo'; /* Define a fonte do corpo como Arimo */
 }
 
 #banner{
-   height: 600px; 
-   background-image: url('imagens/iphone-12-banner-2\ 1.jpg');
-   background-size: cover;
+   height: 600px; /* Altura da seção do banner */
+   background-image: url('imagens/iphone-12-banner-2\ 1.jpg'); /* Define imagem de fundo */
+   background-size: cover; /* Faz a imagem cobrir toda a área */
 }
 
 #menu_banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    color: #ffffff;
+    display: flex; /* Usa layout flexível para os elementos filhos */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    gap: 30px; /* Espaço entre os itens */
+    color: #ffffff; /* Cor do texto branca */
 }
+
 .links{
-    color: #ffffff;
-    text-decoration: none;
+    color: #ffffff; /* Cor branca para os links */
+    text-decoration: none; /* Remove sublinhado dos links */
 }
+
 .botao_cinza{
-    background-color: #D9D9D9;
-    color: #000000;
-    padding: 10px;
-    border-radius: 20px;
-    font-weight: 800;
+    background-color: #D9D9D9; /* Cor de fundo cinza claro */
+    color: #000000; /* Cor do texto preta */
+    padding: 10px; /* Espaço interno */
+    border-radius: 20px; /* Bordas arredondadas */
+    font-weight: 800; /* Texto em negrito forte */
 }
 
 #banner h1{
-    color: #ffffff;
-    font-weight: 300;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 250px;
+    color: #ffffff; /* Cor do texto branca */
+    font-weight: 300; /* Peso leve da fonte */
+    font-size: 40px; /* Tamanho da fonte */
+    text-align: center; /* Alinha o texto ao centro */
+    margin-top: 250px; /* Espaço acima do título */
 }
+
 .botoes{
-    background-color: #000000;
-    color: #ffffff;
-    width: 400px;
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
+    background-color: #000000; /* Cor de fundo preta */
+    color: #ffffff; /* Cor do texto branca */
+    width: 400px; /* Largura do botão */
+    font-size: 20px; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas levemente arredondadas */
 }
+
 #secao1{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    display: flex;
-    gap: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
-    justify-content: center;
+    margin-top: 100px; /* Espaço acima da seção */
+    margin-bottom: 100px; /* Espaço abaixo da seção */
+    display: flex; /* Layout flexível */
+    gap: 50px; /* Espaço entre os itens */
+    padding-left: 80px; /* Espaço interno à esquerda */
+    padding-right: 80px; /* Espaço interno à direita */
+    justify-content: center; /* Centraliza o conteúdo */
 }
 
 #secao2{
-    /* border: 1px solid red; */
-    width: 90%;
-    min-height: 400px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap; /* Quebra automática de linha*/
-    justify-content: space-evenly;
+    /* border: 1px solid red; */ /* Borda comentada para debug */
+    width: 90%; /* Largura de 90% da tela */
+    min-height: 400px; /* Altura mínima da seção */
+    margin: auto; /* Centraliza horizontalmente */
+    display: flex; /* Layout flexível */
+    flex-wrap: wrap; /* Quebra os elementos em várias linhas se necessário */
+    justify-content: space-evenly; /* Distribui o espaço igualmente */
+}
 
-}
 .anuncio{
-    max-width: 350px;
-    /* border: 1px solid green; */
-    text-align: center;
-    margin-bottom: 100px;
-    transition: all 0.5s;
+    max-width: 350px; /* Largura máxima do item */
+    /* border: 1px solid green; */ /* Borda de teste comentada */
+    text-align: center; /* Centraliza o conteúdo */
+    margin-bottom: 100px; /* Espaço abaixo do item */
+    transition: all 0.5s; /* Transição suave para hover */
 }
+
 .anuncio:hover{
-    scale: 1.2;
-    cursor: pointer;
+    scale: 1.2; /* Aumenta o tamanho ao passar o mouse */
+    cursor: pointer; /* Mostra cursor de clique */
 }
 
 .fotos{
-    height: 400px;
+    height: 400px; /* Altura fixa da imagem */
 }
+
 .titulos{
-    font-size: 32px;
+    font-size: 32px; /* Tamanho do título */
 }
+
 .precos{
-    font-size: 32px;
-    font-weight: 900;
-    color:#E30C0C;
+    font-size: 32px; /* Tamanho da fonte do preço */
+    font-weight: 900; /* Peso máximo (negrito forte) */
+    color:#E30C0C; /* Cor vermelha */
 }
+
 .botao_vermelho{
-    background-color: #E30C0C;
-    width: 180px; /*largura do objeto*/
-    font-size: 30px;
-    color: #ffffff;
-    font-weight: 900;  /*espessura do texto*/
-    padding: 8px;   /*espaçamento interno*/
-    border-radius: 10px; 
-    margin: auto;   /*ajuda a centralizar objetos horizontalmente*/
-    margin-top: 20px;
+    background-color: #E30C0C; /* Cor de fundo vermelha */
+    width: 180px; /* Largura do botão */
+    font-size: 30px; /* Tamanho do texto */
+    color: #ffffff; /* Cor do texto branca */
+    font-weight: 900; /* Texto bem destacado (negrito) */
+    padding: 8px; /* Espaço interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: auto; /* Centraliza horizontalmente */
+    margin-top: 20px; /* Espaço acima do botão */
 }
+
 #secao3{
-    /* background-color: yellow; */
-    padding: 100px;
-    justify-content: center;
-    display: flex;
+    /* background-color: yellow; */ /* Cor de fundo comentada */
+    padding: 100px; /* Espaçamento interno em todos os lados */
+    justify-content: center; /* Centraliza o conteúdo */
+    display: flex; /* Layout flexível */
 }
+
 #conteudo_secao3{
-    width: 70%;
-    height: 400px;
-    display: flex;
-    gap: 10px;
+    width: 70%; /* Largura de 70% da tela */
+    height: 400px; /* Altura da área de conteúdo */
+    display: flex; /* Layout flexível */
+    gap: 10px; /* Espaço entre colunas */
 }
+
 #coluna_esquerda{
-    /* border: 2px solid red; */
-    width: 40%;
-    background-image: url('imagens/watch.png');
-    background-size: cover;
-    background-position: center;
-    color: #ffffff;
-    text-align: center;
+    /* border: 2px solid red; */ /* Borda de teste comentada */
+    width: 40%; /* Largura da coluna esquerda */
+    background-image: url('imagens/watch.png'); /* Imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem no fundo */
+    color: #ffffff; /* Cor do texto branca */
+    text-align: center; /* Centraliza o texto */
 }
+
 .botao_transparente{
-    background-color: rgba(193, 5, 5, 0.3);
-    width: fit-content;
-    height: fit-content;
-    padding: 10px;
-    border: 2px solid #ffffff;
-    border-radius: 10px;
-    margin: auto;
+    background-color: rgba(193, 5, 5, 0.3); /* Fundo vermelho semi-transparente */
+    width: fit-content; /* Ajusta a largura ao conteúdo */
+    height: fit-content; /* Ajusta a altura ao conteúdo */
+    padding: 10px; /* Espaçamento interno */
+    border: 2px solid #ffffff; /* Borda branca */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: auto; /* Centraliza o botão */
 }
+
 #coluna_esquerda h1{
-    margin-top: 150px;
+    margin-top: 150px; /* Espaço acima do título */
 }
 
 #coluna_direita{
-    /* border: 2px solid red; */
-    width: 60%;
-    color: #ffffff;
-    gap: 10px; /* distância entre eles*/
-    display: flex;
-    flex-direction: column; /* objetos com layout em coluna*/
+    /* border: 2px solid red; */ /* Borda de teste comentada */
+    width: 60%; /* Largura da coluna direita */
+    color: #ffffff; /* Cor do texto branca */
+    gap: 10px; /* Espaço entre os elementos internos */
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Organiza os itens em coluna */
 }
+
 #acessorios, #seminovos{
-    background-image: url('imagens/phones.png');
-    height: calc(50% - 70px);
-    text-align: center;
-    background-size: cover;
-    padding-top: 70px;
+    background-image: url('imagens/phones.png'); /* Imagem de fundo */
+    height: calc(50% - 70px); /* Altura calculada para dividir igualmente */
+    text-align: center; /* Centraliza o conteúdo */
+    background-size: cover; /* Faz a imagem cobrir o elemento */
+    padding-top: 70px; /* Espaço acima do conteúdo */
 }
+
 .titulo_div{
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 35px; /* Tamanho da fonte */
+    font-weight: 700; /* Negrito */
 }
 
 #rodape{
-    background-color: #000000;
-    color: #ffffff;
-    display: flex;
-    justify-content:center;
-    gap: 90px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    background-color: #000000; /* Cor de fundo preta */
+    color: #ffffff; /* Cor do texto branca */
+    display: flex; /* Layout flexível */
+    justify-content: center; /* Centraliza os elementos */
+    gap: 90px; /* Espaço entre as colunas */
+    padding-top: 70px; /* Espaço acima */
+    padding-bottom: 70px; /* Espaço abaixo */
 }
+
 .colunas{
-    /* border: 2px solid red; */
+    /* border: 2px solid red; */ /* Borda comentada para debug */
 }
